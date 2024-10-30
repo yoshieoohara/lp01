@@ -39,17 +39,18 @@ body {
 
 .top-wrap__con {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 7%;
+  transform: translateY(-50%);
   z-index: 1;
 }
 
 .top-wrap__name h1 a {
-font-family: "Righteous", serif;
-font-size: 7.5rem;
-line-height: 1;
-color: #00a3a7;
-text-decoration: none;
+  font-family: "Righteous", serif;
+  font-size: 7.5rem;
+  line-height: 1;
+  color: #00a3a7;
+  text-decoration: none;
 }
 
 .top-wrap__ttl {
@@ -105,14 +106,14 @@ text-decoration: none;
 
 .top-wrap__fixed a {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
   letter-spacing: 6px;
   background-color: #00a3a7;
   border-radius: 0.75rem 0 0 0.75rem;
   box-shadow: -0.5rem 0.5rem 0.5rem rgb(0 0 0 / 10%);
-  padding: 3.5rem 1.5rem;
+  padding: 3rem 1rem;
   writing-mode: vertical-rl;
   text-decoration: unset;
   transition: all 0.3s;
@@ -129,10 +130,7 @@ text-decoration: none;
 
 .com-wrap {
   padding: 3.75rem 2.5rem;
-}
-
-.__inner {
-  max-width: 75rem;
+  max-width: 67.5rem;
   margin: 0 auto;
 }
 
@@ -172,7 +170,7 @@ text-decoration: none;
 .com-wrap__con {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.625rem;
+  gap: 2.5rem;
   margin-top: 2.5rem;
 }
 
@@ -189,6 +187,11 @@ text-decoration: none;
 
 .about-wrap {
   padding: 3.75rem 2.5rem 2.5rem;
+}
+
+.__inner {
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .about-wrap__ttl {
@@ -239,7 +242,7 @@ text-decoration: none;
 
 .about-wrap__con__left__block__ttl span::before {
   transform: rotate(55deg);
- left: -1.5rem;
+  left: -1.5rem;
 }
 
 .about-wrap__con__left__block__ttl span::after {
@@ -439,14 +442,14 @@ text-decoration: none;
 .cta {
   background-image: url(../img/cta-bg.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 50%;
 }
 
 .cta-wrap {
   padding: 3.3125rem 2.5rem;
 }
- 
+
 .cta-wrap__con {
   display: flex;
   align-items: center;
@@ -485,9 +488,9 @@ text-decoration: none;
 }
 
 .cta-wrap__con__right {
-width: 32%;
- text-align: center;
- margin-left: 6.25rem;
+  width: 32%;
+  text-align: center;
+  margin-left: 6.25rem;
 }
 
 .cta-wrap__con__right span {
@@ -695,10 +698,10 @@ width: 32%;
 }
 
 .voi-wrap__con {
-   display: flex;
-   align-items: start;
-   justify-content: space-between;
-   margin-top: 3.75rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 3.75rem;
 }
 
 .voi-wrap__con__block {
@@ -742,8 +745,8 @@ width: 32%;
 
 /* faq */
 .faq-wrap {
-   max-width: 50rem;
-   padding: 6.25rem 2.5rem;
+  max-width: 50rem;
+  padding: 6.25rem 2.5rem;
 }
 
 .faq-wrap__con {
@@ -806,7 +809,7 @@ width: 32%;
 }
 
 .con-wrap {
-    max-width: 55rem;
+  max-width: 55rem;
   padding: 6.25rem 2.5rem;
 }
 
@@ -849,7 +852,6 @@ width: 32%;
   color: #fff;
   background-color: #ef857d;
   padding: 0.5rem 1rem;
-
 }
 
 .con-wrap__con__form__block__left .__rev {
